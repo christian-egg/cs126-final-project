@@ -15,24 +15,22 @@ auto-run platforming games (mostly on mobile devices), so I would say I have a
 good feel for how these games work and I would be pretty invested in making my
 own game in this genre. While my game is undoubtedly going to be a bit simpler
 than many games you'd find on the appstore of the same genre, I will be adding
-unique features to ensure my program is complex enough. I plan to have 3 basic
-inputs: jumping, crouching, and shooting. Jumping and crouching will be used to
+unique features to ensure my program is complex enough. I plan to have 2 basic
+inputs: jumping and shooting. Jumping will be used to
 avoid obstacles while shooting will be able to break obstacles designated with 
 a special color. Additionally, after obtaining a score that is a multiple of
 a certain amount, a boss fight will begin. The boss will essentially be a large
-obstacle at the right of the screen that does not move relative to the player
-but shoots projectiles that the player must avoid. During this boss fight 
+obstacle at the right of the screen that does not move relative to the player. During this boss fight 
 state, the player will not gain score. To end the fight, the player must shoot
 the boss until it runs out of health points (its hp will be displayed with a
 health bar somewhere on the screen).
 
 ##Expected Development Timeline
 In the first week, I expect to complete the basics of the game engine,
-including the input-handling and animation for jumping, shooting and crouching
+including the input-handling and animation for jumping and shooting
 and making sure the game properly adjusts the player's collision. I will also
 set up a simple game engine in a way that is easily extensible and I will
-set up the scoring system. I need to make sure states can be easily implemented
-(they will be represented by an enum) and that the player cannot make too many
+set up the scoring system. I need to make sure that the player cannot make too many
 inputs at once (can't jump while in the air, can't shoot too fast, etc).
 
 For week two, I plan to add in obstacles (both breakable and unbreakable) and
@@ -42,9 +40,8 @@ that generates obstacles at an increasing rate (increases with time/score) and
 generates obstacles far enough apart and in a way that they can actually be
 avoided. I may need to set a max speed for the obstacles at a certain point.
 
-For week three, I plan to add in the boss fight state and the boss' sprite
-and projectiles. These projectiles will have to be generated differently from
-the normal obstacles. I will need to make the boss' health scale off of score.
+For week three, I plan to add in the boss fight and the boss' sprite.
+I will need to make the boss' health scale off of score in some way.
 I will also need to make sure there is buffer time at the beginning and end of
 the fight to let the player adjust. Also, I will need to display the health
 bar of the boss somewhere on screen and have it update every frame.
@@ -55,3 +52,7 @@ custom backgrounds that change every time a boss is beaten, adding sound
 effects, or just adding better-looking sprites to the game. I could also add
 a high-score storing system to show the 10 highest scores and let players
 enter in a 3-letter name for themselves to show on the leaderboard.
+
+###NEW STRETCH GOAL: 
+Make the background move in some way to make the motion of
+the player character more realistic.

@@ -49,9 +49,17 @@ get_filename_component(APP_PATH "${CMAKE_CURRENT_SOURCE_DIR}/" ABSOLUTE)
 
 include("${CINDER_PATH}/proj/cmake/modules/cinderMakeApp.cmake")
 
-list(APPEND SOURCE_FILES src/runner_game_app.cc)
+list(APPEND SOURCE_FILES src/runner_game_app.cc
+        src/game_engine.cc
+        src/player.cc
+        src/illustrator.cc
+        src/obstacle.cc
+        src/boss.cc)
 
-list(APPEND TEST_FILES )
+list(APPEND TEST_FILES tests/test_player.cc
+        tests/test_engine.cc
+        tests/test_obstacles.cc
+        tests/test_boss.cc)
 
 ci_make_app(
         APP_NAME        runner-game
