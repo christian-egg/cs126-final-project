@@ -2,6 +2,11 @@
 - This is a simple endless runner game where your goal is to survive and gain
 as high of a score as you can.
 
+## Notice (Reupload)
+- This repository is a public copy of my final project for UIUC's CS126 course (which is now discontinued):  
+![The original (private) repository](images/original_repo.png)
+- Although this was a school project, the only specification was only to make a Cinder application. The ideas and content present are my own original contribution.
+
 ## Dependencies
 - [MSVC 2015](https://visualstudio.microsoft.com/)
 - [cmake](https://cmake.org/)
