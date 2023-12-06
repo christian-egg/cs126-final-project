@@ -1,16 +1,16 @@
-#Dino Runner Game
+# Dino Runner Game
 - This is a simple endless runner game where your goal is to survive and gain
 as high of a score as you can.
 
-##Dependencies
+## Dependencies
 - [MSVC 2015](https://visualstudio.microsoft.com/)
 - [cmake](https://cmake.org/)
 - [cinder](https://libcinder.org/download)
 
-##Only Compatible with Windows
+## Only Compatible with Windows
 - Other operating systems are not supported
 
-##How to install
+## How to install
 - Download the latest version of the [cinder library](https://libcinder.org/download) 
   for Visual C++ 2015
     - Extract this to a folder called 'Cinder'
@@ -22,7 +22,7 @@ as high of a score as you can.
     - You can follow [this guide's](https://libcinder.org/docs/guides/cmake/cmake.html#:~:text=To%20build%20libcinder%20with%20CLion,you%20can%20modify%20the%20CMakeCache.)
   'Building your application with CMake' section
   
-##How to Play
+## How to Play
 - Upon starting the game, obstacles will begin spawning on the right side of 
 the screen. Touching an obstacle is an instant game over.
   - These obstacles will progressively become faster as your score increases
@@ -44,7 +44,7 @@ the screen. Touching an obstacle is an instant game over.
     - Each bullet that hits will subtract 1 point from the monster's health
   - Each subsequent boss will have twice as much health as the previous boss
 
-##Controls
+## Controls
 
 | Key | Action |
 | ------- | --------|
